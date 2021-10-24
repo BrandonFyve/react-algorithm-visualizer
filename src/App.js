@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import BubbleSort from "./pages/BubbleSort/BubbleSort";
 import TestPage from "./pages/TestPage/TestPage";
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
     <Router>
       <Switch>
         <Route path="/">
-          <TestPage />
+          <BubbleSort />
         </Route>
       </Switch>
     </Router>
